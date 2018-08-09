@@ -29,4 +29,4 @@ include_directories(3rdparty/include
         ${Sophus_INCLUDE_DIRS} ${EIGEN3_INCLUDE_DIRS} $CERES_INCLUDE_DIRS})
 
 add_subdirectory(quaternion)
-
+add_subdirectory(so3)
